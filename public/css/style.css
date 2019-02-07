@@ -1,0 +1,17 @@
+:root {
+  --primary: #021d49;
+  --primary-alpha: rgba(2, 29, 73, 0.5);
+  --secondary: #00ffb0;
+  --secondary-alpha: rgba(0, 255,126, 0.5);
+  --gray: #f6f6f6;
+  --gray-alpha: rgba(246, 246, 246, 0.9);
+  --black-color: #222223;
+  --red-color: #ff4d4f
+}
+
+body, button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.4rem;
+  background: var(--gray);
+  color: var(--primary)
+}
